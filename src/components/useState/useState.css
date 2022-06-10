@@ -1,0 +1,27 @@
+.us-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape {
+  border: solid red 2px;
+  width: 100%;
+  height: 100%
+}
+
+.square {
+  width: 40vw;
+  height: 40vw;
+  clip-path: polygon(35% 0, 69% 0, 80% 87%, 24% 54%);
+}
+
+.us-wrapper h2 {
+  font-size: 2.2rem;
+}
+
+.us-wrapper button {
+  margin-top: 2rem;
+}

@@ -1,4 +1,6 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
+import './useState.css';
 
 class OtherClassComponent extends Component {
   constructor() {
@@ -8,7 +10,7 @@ class OtherClassComponent extends Component {
         fName: 'Skye',
         lName: 'Brown'
       },
-      color: 'lavender'
+      color: '#9C73B3'
     };
   }
 
@@ -22,6 +24,9 @@ class OtherClassComponent extends Component {
         <h2>
           by {this.state.name.fName} {this.state.name.lName}
         </h2>
+        <Link className="link" to='/'>
+          <button>Home</button>
+        </Link>
       </div>
     )
   }
