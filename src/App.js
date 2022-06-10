@@ -1,9 +1,8 @@
+import CreateClassComponent from "./components/intro";
 
 function App() {
   return (
-    <div className="App">
-      hello from app!
-    </div>
+    <CreateClassComponent />
   );
 }
 

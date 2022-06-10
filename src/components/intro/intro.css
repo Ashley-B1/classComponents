@@ -1,0 +1,11 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper h1 {
+  font-size: 6rem;
+}
